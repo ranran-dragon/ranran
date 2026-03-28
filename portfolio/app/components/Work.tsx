@@ -70,10 +70,10 @@ export default function Work() {
     >
       <div className="px-6 max-w-5xl mx-auto">
         <div className="mb-14">
-          <p className="font-[family-name:var(--font-sans)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-4 font-light">
+          <p className="font-[family-name:var(--font-serif)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-4 font-light">
             Work
           </p>
-          <h2 className="font-[family-name:var(--font-sans)] text-4xl md:text-5xl font-light leading-tight text-[#2a1508]">
+          <h2 className="font-[family-name:var(--font-serif)] text-4xl md:text-5xl font-light leading-tight text-[#2a1508]">
             주요 작업물
           </h2>
         </div>
@@ -85,32 +85,32 @@ export default function Work() {
               className="bg-[#fbf8f3] border border-[#e8d4c0] p-8 flex flex-col rounded-sm hover:border-[#e07b5a] hover:shadow-[0_4px_32px_rgba(224,123,90,0.1)] transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-4">
-                <span className="font-[family-name:var(--font-sans)] text-xs tracking-[0.15em] text-[#e07b5a] uppercase font-light">
+                <span className="font-[family-name:var(--font-serif)] text-xs tracking-[0.15em] text-[#e07b5a] uppercase font-light">
                   {work.category}
                 </span>
-                <span className="font-[family-name:var(--font-sans)] text-xs text-[#d4906a] shrink-0 ml-2 font-light">
+                <span className="font-[family-name:var(--font-serif)] text-xs text-[#d4906a] shrink-0 ml-2 font-light">
                   {work.year}
                 </span>
               </div>
 
-              <h3 className="font-[family-name:var(--font-sans)] text-lg font-medium mb-1 leading-snug text-[#2a1508]">
+              <h3 className="font-[family-name:var(--font-serif)] text-lg font-medium mb-1 leading-snug text-[#2a1508]">
                 {work.title}
               </h3>
-              <p className="font-[family-name:var(--font-sans)] text-xs text-[#a07060] mb-5 font-light">
+              <p className="font-[family-name:var(--font-serif)] text-xs text-[#a07060] mb-5 font-light">
                 {work.client}
               </p>
 
               {/* Result highlight */}
               <div className="rounded-sm bg-[#f7e0ce] px-5 py-4 mb-5">
-                <p className="font-[family-name:var(--font-sans)] text-xs text-[#7a5040] font-light mb-1">
+                <p className="font-[family-name:var(--font-serif)] text-xs text-[#7a5040] font-light mb-1">
                   {work.result.label}
                 </p>
-                <p className="font-[family-name:var(--font-display)] text-3xl italic text-[#e07b5a]">
+                <p className="font-[family-name:var(--font-serif)] text-3xl italic text-[#e07b5a]">
                   {work.result.value}
                 </p>
               </div>
 
-              <p className="font-[family-name:var(--font-sans)] text-sm text-[#6a4030] leading-relaxed mb-6 flex-1 font-light">
+              <p className="font-[family-name:var(--font-serif)] text-sm text-[#6a4030] leading-relaxed mb-6 flex-1 font-light">
                 {work.description}
               </p>
 
@@ -119,7 +119,7 @@ export default function Work() {
                   {work.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="font-[family-name:var(--font-sans)] text-xs px-3 py-1 bg-[#f2dfb8] text-[#7a5040] font-light rounded-sm"
+                      className="font-[family-name:var(--font-serif)] text-xs px-3 py-1 bg-[#f2dfb8] text-[#7a5040] font-light rounded-sm"
                     >
                       {tag}
                     </span>
@@ -130,7 +130,7 @@ export default function Work() {
                     href={work.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-[family-name:var(--font-sans)] text-xs text-[#e07b5a] hover:text-[#2a1508] transition-colors shrink-0 ml-4 font-light"
+                    className="font-[family-name:var(--font-serif)] text-xs text-[#e07b5a] hover:text-[#2a1508] transition-colors shrink-0 ml-4 font-light"
                   >
                     {work.linkLabel}
                   </a>

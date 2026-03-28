@@ -25,10 +25,10 @@ const experiences = [
 export default function Experience() {
   return (
     <section id="experience" className="py-28 px-6 max-w-5xl mx-auto">
-      <p className="font-[family-name:var(--font-sans)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-4 font-light">
+      <p className="font-[family-name:var(--font-serif)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-4 font-light">
         Experience
       </p>
-      <h2 className="font-[family-name:var(--font-sans)] text-4xl md:text-5xl font-light leading-tight mb-14 text-[#2a1508]">
+      <h2 className="font-[family-name:var(--font-serif)] text-4xl md:text-5xl font-light leading-tight mb-14 text-[#2a1508]">
         경력 & 활동
       </h2>
 
@@ -39,18 +39,18 @@ export default function Experience() {
             className="grid md:grid-cols-[160px_1fr] gap-4 md:gap-12 py-8 border-t border-[#e8d4c0] first:border-t-0"
           >
             <div className="pt-0.5">
-              <p className="font-[family-name:var(--font-sans)] text-sm text-[#a07060] font-light">
+              <p className="font-[family-name:var(--font-serif)] text-sm text-[#a07060] font-light">
                 {exp.period}
               </p>
             </div>
             <div>
-              <h3 className="font-[family-name:var(--font-sans)] text-lg font-medium mb-0.5 text-[#2a1508]">
+              <h3 className="font-[family-name:var(--font-serif)] text-lg font-medium mb-0.5 text-[#2a1508]">
                 {exp.role}
               </h3>
-              <p className="font-[family-name:var(--font-sans)] text-sm text-[#e07b5a] mb-3 font-light">
+              <p className="font-[family-name:var(--font-serif)] text-sm text-[#e07b5a] mb-3 font-light">
                 {exp.company}
               </p>
-              <p className="font-[family-name:var(--font-sans)] text-sm text-[#6a4030] leading-relaxed font-light">
+              <p className="font-[family-name:var(--font-serif)] text-sm text-[#6a4030] leading-relaxed font-light">
                 {exp.description}
               </p>
             </div>
@@ -60,12 +60,12 @@ export default function Experience() {
 
       {/* Quote */}
       <div className="mt-20 bg-[#f7e0ce] rounded-sm px-10 py-10">
-        <p className="font-[family-name:var(--font-display)] text-xl md:text-2xl italic text-[#3d1e0e] leading-relaxed">
+        <p className="font-[family-name:var(--font-serif)] text-xl md:text-2xl italic text-[#3d1e0e] leading-relaxed">
           "AI가 쓴 글과 내가 쓴 글의 차이는,
           <br />
           얼마나 많이 틀려봤느냐에서 납니다."
         </p>
-        <footer className="font-[family-name:var(--font-sans)] text-sm text-[#a07060] mt-5 font-light">
+        <footer className="font-[family-name:var(--font-serif)] text-sm text-[#a07060] mt-5 font-light">
           — 유아란
         </footer>
       </div>

@@ -32,10 +32,10 @@ export default function Nav() {
 
         {/* Wordmark */}
         <a href="#" className="group flex items-baseline gap-1.5">
-          <span className="font-[family-name:var(--font-display)] text-xl italic text-[#e07b5a] group-hover:text-[#2a1508] transition-colors duration-300">
+          <span className="font-[family-name:var(--font-serif)] text-xl italic text-[#e07b5a] group-hover:text-[#2a1508] transition-colors duration-300">
             아란
           </span>
-          <span className="font-[family-name:var(--font-sans)] text-xs text-[#a07060] font-light tracking-widest group-hover:text-[#2a1508] transition-colors duration-300">
+          <span className="font-[family-name:var(--font-serif)] text-xs text-[#a07060] font-light tracking-widest group-hover:text-[#2a1508] transition-colors duration-300">
             YOO
           </span>
         </a>
@@ -45,7 +45,7 @@ export default function Nav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="font-[family-name:var(--font-sans)] text-sm font-light text-[#7a5040] hover:text-[#2a1508] transition-colors duration-300"
+                className="font-[family-name:var(--font-serif)] text-sm font-light text-[#7a5040] hover:text-[#2a1508] transition-colors duration-300"
               >
                 {link.label}
               </a>
@@ -72,7 +72,7 @@ export default function Nav() {
                 <a
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="font-[family-name:var(--font-sans)] text-sm font-light text-[#7a5040] hover:text-[#2a1508] transition-colors"
+                  className="font-[family-name:var(--font-serif)] text-sm font-light text-[#7a5040] hover:text-[#2a1508] transition-colors"
                 >
                   {link.label}
                 </a>

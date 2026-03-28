@@ -25,16 +25,16 @@ export default function Teaching() {
       <div className="grid md:grid-cols-[1fr_1.6fr] gap-16 items-start">
 
         <div className="md:sticky md:top-28">
-          <p className="font-[family-name:var(--font-sans)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-5 font-light">
+          <p className="font-[family-name:var(--font-serif)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-5 font-light">
             함께 배우기
           </p>
-          <h2 className="font-[family-name:var(--font-sans)] text-4xl md:text-5xl font-light leading-tight text-[#2a1508] mb-2">
+          <h2 className="font-[family-name:var(--font-serif)] text-4xl md:text-5xl font-light leading-tight text-[#2a1508] mb-2">
             제가 아는 것을
           </h2>
-          <h2 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl italic leading-tight text-[#e07b5a] mb-6">
+          <h2 className="font-[family-name:var(--font-serif)] text-4xl md:text-5xl italic leading-tight text-[#e07b5a] mb-6">
             당신의 것으로.
           </h2>
-          <p className="font-[family-name:var(--font-sans)] text-sm text-[#7a5040] leading-relaxed font-light">
+          <p className="font-[family-name:var(--font-serif)] text-sm text-[#7a5040] leading-relaxed font-light">
             AI 시대에 진짜 차이를 만드는 건
             누군가의 살아있는 경험입니다.
             데이터로 검증하고 실패하며 쌓은 것들을,
@@ -42,7 +42,7 @@ export default function Teaching() {
           </p>
           <a
             href="#contact"
-            className="inline-block mt-8 font-[family-name:var(--font-sans)] text-sm px-7 py-3.5 bg-[#e07b5a] text-[#fbf8f3] hover:bg-[#2a1508] transition-colors duration-300 tracking-wide font-light rounded-sm"
+            className="inline-block mt-8 font-[family-name:var(--font-serif)] text-sm px-7 py-3.5 bg-[#e07b5a] text-[#fbf8f3] hover:bg-[#2a1508] transition-colors duration-300 tracking-wide font-light rounded-sm"
           >
             세션 문의하기
           </a>
@@ -55,17 +55,17 @@ export default function Teaching() {
               className="border border-[#e8d4c0] p-7 rounded-sm hover:border-[#e07b5a] hover:bg-[#fdf5ef] transition-all duration-300 group"
             >
               <div className="flex items-start gap-3 mb-3">
-                <span className="font-[family-name:var(--font-display)] text-[#e07b5a] text-xl italic mt-0.5">
+                <span className="font-[family-name:var(--font-serif)] text-[#e07b5a] text-xl italic mt-0.5">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <h3 className="font-[family-name:var(--font-sans)] text-base font-medium text-[#2a1508]">
+                <h3 className="font-[family-name:var(--font-serif)] text-base font-medium text-[#2a1508]">
                   {item.title}
                 </h3>
               </div>
-              <p className="font-[family-name:var(--font-sans)] text-sm text-[#6a4030] leading-relaxed mb-3 font-light pl-8">
+              <p className="font-[family-name:var(--font-serif)] text-sm text-[#6a4030] leading-relaxed mb-3 font-light pl-8">
                 {item.description}
               </p>
-              <p className="font-[family-name:var(--font-sans)] text-xs text-[#a07060] font-light pl-8">
+              <p className="font-[family-name:var(--font-serif)] text-xs text-[#a07060] font-light pl-8">
                 → {item.target}
               </p>
             </div>

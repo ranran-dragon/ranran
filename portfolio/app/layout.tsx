@@ -1,17 +1,9 @@
 import type { Metadata } from "next";
-import { DM_Serif_Display, Noto_Sans_KR } from "next/font/google";
+import { Noto_Serif_KR } from "next/font/google";
 import "./globals.css";
 
-const dmSerif = DM_Serif_Display({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
-  display: "swap",
-});
-
-const notoSans = Noto_Sans_KR({
-  variable: "--font-sans",
+const notoSerifKR = Noto_Serif_KR({
+  variable: "--font-serif",
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
   display: "swap",
@@ -29,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className={`${dmSerif.variable} ${notoSans.variable}`}>
+    <html lang="ko" className={notoSerifKR.variable}>
       <body className="bg-[#fbf8f3] text-[#2a1508] antialiased">{children}</body>
     </html>
   );

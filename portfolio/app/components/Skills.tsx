@@ -53,24 +53,24 @@ export default function Skills() {
       style={{ background: "linear-gradient(180deg, #fbf8f3 0%, #f7e0ce 100%)" }}
     >
       <div className="px-6 max-w-5xl mx-auto">
-        <p className="font-[family-name:var(--font-sans)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-4 font-light">
+        <p className="font-[family-name:var(--font-serif)] text-xs tracking-[0.2em] text-[#e07b5a] uppercase mb-4 font-light">
           Skills
         </p>
-        <h2 className="font-[family-name:var(--font-sans)] text-4xl md:text-5xl font-light leading-tight mb-14 text-[#2a1508]">
+        <h2 className="font-[family-name:var(--font-serif)] text-4xl md:text-5xl font-light leading-tight mb-14 text-[#2a1508]">
           무엇을 할 수 있나요
         </h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillGroups.map((group) => (
             <div key={group.title}>
-              <h3 className="font-[family-name:var(--font-sans)] text-sm font-medium text-[#2a1508] mb-4 pb-3 border-b border-[#e8d4c0]">
+              <h3 className="font-[family-name:var(--font-serif)] text-sm font-medium text-[#2a1508] mb-4 pb-3 border-b border-[#e8d4c0]">
                 {group.title}
               </h3>
               <ul className="space-y-2.5">
                 {group.skills.map((skill) => (
                   <li
                     key={skill}
-                    className="font-[family-name:var(--font-sans)] text-sm text-[#6a4030] flex items-center gap-2.5 font-light"
+                    className="font-[family-name:var(--font-serif)] text-sm text-[#6a4030] flex items-center gap-2.5 font-light"
                   >
                     <span className="w-1 h-1 rounded-full bg-[#e07b5a] shrink-0" />
                     {skill}
